@@ -1,0 +1,116 @@
+{
+ "sim": {
+  "prev|early": {
+   "n_cells": 90,
+   "peak": 0.9323333333333332,
+   "peak_window": "sym-1000",
+   "null_95": 0.695,
+   "null_max_95": 0.8069166666666666,
+   "n_windows_sig": 13
+  },
+  "prev|late": {
+   "n_cells": 49,
+   "peak": 0.6231666666666669,
+   "peak_window": "sym-400",
+   "null_95": 0.6733333333333333,
+   "null_max_95": 0.8238333333333332,
+   "n_windows_sig": 0
+  },
+  "hand|OT": {
+   "n_cells": 94,
+   "peak": 0.9043333333333333,
+   "peak_window": "mov-100",
+   "null_95": 0.6933333333333334,
+   "null_max_95": 0.7851666666666666,
+   "n_windows_sig": 3
+  },
+  "hand|early": {
+   "n_cells": 90,
+   "peak": 0.7073333333333334,
+   "peak_window": "mov-100",
+   "null_95": 0.7050000000000001,
+   "null_max_95": 0.8354999999999999,
+   "n_windows_sig": 0
+  },
+  "hand|late": {
+   "n_cells": 73,
+   "peak": 0.9025000000000001,
+   "peak_window": "mov-100",
+   "null_95": 0.6684166666666662,
+   "null_max_95": 0.7958333333333332,
+   "n_windows_sig": 2
+  },
+  "classifiers": {
+   "LDA (shrinkage)": 0.9453333333333334,
+   "logistic (L2)": 0.9380000000000001,
+   "linear SVM": 0.9336666666666668,
+   "boosted trees": 0.7973333333333332
+  }
+ },
+ "public": {
+  "prev|early": {
+   "n_cells": 21,
+   "peak": 0.9203333333333333,
+   "peak_window": "sym-1300",
+   "null_95": 0.75,
+   "null_max_95": 0.8936666666666666,
+   "n_windows_sig": 1
+  },
+  "prev|late": {
+   "n_cells": 10,
+   "peak": 0.8143333333333332,
+   "peak_window": "sym-800",
+   "null_95": 0.7500833333333329,
+   "null_max_95": 0.8837499999999999,
+   "n_windows_sig": 0
+  },
+  "hand|OT": {
+   "n_cells": 22,
+   "peak": 0.9828333333333331,
+   "peak_window": "mov-100",
+   "null_95": 0.6884166666666662,
+   "null_max_95": 0.8066666666666666,
+   "n_windows_sig": 5
+  },
+  "hand|early": {
+   "n_cells": 20,
+   "peak": 0.9179999999999999,
+   "peak_window": "mov-100",
+   "null_95": 0.7484166666666662,
+   "null_max_95": 0.9203333333333332,
+   "n_windows_sig": 0
+  },
+  "hand|late": {
+   "n_cells": 19,
+   "peak": 0.9538333333333334,
+   "peak_window": "mov-100",
+   "null_95": 0.6984166666666662,
+   "null_max_95": 0.847,
+   "n_windows_sig": 3
+  },
+  "classifiers": {
+   "LDA (shrinkage)": 0.9299999999999999,
+   "logistic (L2)": 0.9349999999999999,
+   "linear SVM": 0.9383333333333332,
+   "boosted trees": 0.7036666666666667
+  }
+ },
+ "null_sd": {
+  "trial_level": 0.12373642574260643,
+  "pseudo_level": 0.029364400635656738
+ },
+ "null_cells_centred_False": {
+  "n_cells": 22,
+  "peak": 0.6611666666666668,
+  "mean": 0.5701933333333334,
+  "null_max_95": 0.8451666666666666,
+  "n_windows_sig": 0
+ },
+ "null_cells_centred_True": {
+  "n_cells": 22,
+  "peak": 0.6776666666666666,
+  "mean": 0.5028200000000002,
+  "null_max_95": 0.8353333333333333,
+  "n_windows_sig": 0
+ }
+}

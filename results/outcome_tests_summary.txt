@@ -1,0 +1,45 @@
+
+simulated, no outcome signal (n = 22)
+                      prev   next   prev>next
+  per-window t          27%    32% 
+  t, Bonferroni          9%    18% 
+  shuffle                9%    27% 
+  shuffle+trend         14%     0%     9%
+  circshift              5%     5% 
+  linshift               5%     0% 
+  session                9%     0% 
+  session+trend          0%     0%     9%
+  synthetic              9%     0% 
+  synthetic+trend       14%     9%     9%
+  local                 14%     5%     9%
+  local test, FDR 5% across cells: 0 of 22 for the previous outcome, 0 for the next
+
+simulated, outcome signal (n = 72)
+                      prev   next   prev>next
+  per-window t          79%    51% 
+  t, Bonferroni         58%    25% 
+  shuffle               69%    36% 
+  shuffle+trend         65%    14%    62%
+  circshift             46%    19% 
+  linshift              33%     0% 
+  session               46%    10% 
+  session+trend         60%     7%    60%
+  synthetic             44%     7% 
+  synthetic+trend       65%    12%    62%
+  local                 69%     8%    64%
+  local test, FDR 5% across cells: 48 of 72 for the previous outcome, 0 for the next
+
+public cells (n = 22)
+                      prev   next   prev>next
+  per-window t          82%    59% 
+  t, Bonferroni         45%    14% 
+  shuffle               55%    27% 
+  shuffle+trend         50%    18%    45%
+  circshift             32%     9% 
+  linshift              18%     0% 
+  session               27%     0% 
+  session+trend         27%     9%    41%
+  synthetic             27%     5% 
+  synthetic+trend       41%    18%    41%
+  local                 45%     9%    41%
+  local test, FDR 5% across cells: 9 of 22 for the previous outcome, 0 for the next
